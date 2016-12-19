@@ -171,13 +171,213 @@ def print_letter(letter) :
         print "   *   "
         print "  *    "
         print " ***** ",
+file = open("ascii.txt", "w")
+def write_letter(letter) :
+    if letter == 'A' or letter == 'a':
+        file.write( " *** \n"),
+        file.write( "*   *\n"),
+        file.write( "*****\n"),
+        file.write( "*   *\n"),
+        file.write("\n")
+
+    if letter == 'B' or letter == 'b':
+        file.write( "*** \n"),
+        file.write( "*  *\n"),
+        file.write( "*** \n"),
+        file.write( "*  *\n"),
+        file.write( "*** \n"),
+        file.write("\n")
+
+    if letter == 'C' or letter == 'c':
+        file.write( " ***\n"),
+        file.write( "*   \n")
+        file.write( "*   \n")
+        file.write( " ***\n"),
+        file.write("\n")
+
+    if letter == 'D' or letter == 'd':
+        file.write( "***\n")
+        file.write( "*  *\n")
+        file.write( "*  *\n")
+        file.write( "***\n"),
+        file.write("\n")
+
+    if letter == 'E' or letter == 'e':
+        file.write( "***\n")
+        file.write( "*\n")
+        file.write( "***\n")
+        file.write( "*\n")
+        file.write( "***\n"),
+        file.write("\n")
+
+    if letter == 'F' or letter == 'f':
+        file.write( "****\n")
+        file.write( "*\n")
+        file.write( "****\n")
+        file.write( "*\n")
+        file.write( "*\n"),
+        file.write("\n")
+
+    if letter == 'G' or letter == 'g':
+        file.write( " ***\n")
+        file.write( "*\n")
+        file.write( "* ***\n")
+        file.write( "*   *\n")
+        file.write( " ***\n"),
+        file.write("\n")
+
+    if letter == 'H' or letter == 'h':
+        file.write( "*    *\n")
+        file.write( "*    *\n")
+        file.write( "******\n")
+        file.write( "*    *\n")
+        file.write( "*    *\n"),
+        file.write("\n")
+
+    if letter == 'I' or letter == 'i':
+        file.write( "*****\n")
+        file.write( "  * \n")
+        file.write( "  * \n")
+        file.write( "  *\n")
+        file.write( "*****\n"),
+        file.write("\n")
+
+    if letter == 'J' or letter == 'j':
+        file.write( " *****\n")
+        file.write( "   *  \n")
+        file.write( "   *  \n")
+        file.write( "*  *  \n")
+        file.write( " **   \n"),
+        file.write("\n")
+
+    if letter == 'K' or letter == 'k':
+        file.write( "*  *\n")
+        file.write( "* * \n")
+        file.write( "**  \n")
+        file.write( "* * \n")
+        file.write( "*  *\n"),
+        file.write("\n")
+
+    if letter == 'L' or letter == 'l':
+        file.write( "*    \n" )
+        file.write( "*    \n" )
+        file.write( "*    \n" )
+        file.write( "*    \n" )
+        file.write( "*****\n" ),
+        file.write("\n")
+
+    if letter == 'M' or letter == 'm':
+        file.write( "*       *\n" )
+        file.write( "* *   * *\n" )
+        file.write( "*   *   *\n" )
+        file.write( "*       *\n" )
+        file.write( "*       *\n" ),
+        file.write("\n")
+
+    if letter == 'N' or letter == 'n':
+        file.write( "*     *\n" )
+        file.write( "* *   *\n" )
+        file.write( "*  *  *\n" )
+        file.write( "*   * *\n" )
+        file.write( "*     *\n" ),
+        file.write("\n")
+
+    if letter == 'O' or letter == 'o':
+        file.write( " *** \n" )
+        file.write( "*   *\n" )
+        file.write( "*   *\n" )
+        file.write( "*   *\n" )
+        file.write( " *** \n" ),
+        file.write("\n")
+
+    if letter == 'P' or letter == 'p':
+        file.write( "***\n" )
+        file.write( "*  *\n" )
+        file.write( "* *\n" )
+        file.write( "*\n" )
+        file.write( "*\n" ),
+        file.write("\n")
+
+    if letter == 'Q' or letter == 'q':
+        file.write( " *** \n" )
+        file.write( "*   *\n" )
+        file.write( "* * *\n" )
+        file.write( "*   *\n" )
+        file.write( " ***  *\n" ),
+        file.write("\n")
+
+    if letter == 'R' or letter == 'r':
+        file.write( "***\n" )
+        file.write( "*  *\n" )
+        file.write( "***\n" )
+        file.write( "* *\n" )
+        file.write( "*  *\n" ),
+        file.write("\n")
+
+    if letter == 'S' or letter == 's':
+        file.write( "  ***\n" )
+        file.write( " *\n" )
+        file.write( "  ***\n" )
+        file.write( "     *\n" )
+        file.write( "  ***\n" ),
+        file.write("\n")
+
+    if letter == 'T' or letter == 't':
+        file.write( "*******\n" )
+        file.write( "   *  \n" )
+        file.write( "   *  \n" )
+        file.write( "   *  \n" ),
+        file.write("\n")
+
+    if letter == 'U' or letter == 'u':
+        file.write( "*   *\n" )
+        file.write( "*   *\n" )
+        file.write( " ***\n" ),
+        file.write("\n")
+
+    if letter == 'V' or letter == 'v':
+        file.write( "*   *\n" )
+        file.write( " * * \n" )
+        file.write( "  *  \n" ),
+        file.write("\n")
+
+    if letter == 'W' or letter == 'w':
+         file.write( "*       * \n" )
+         file.write( "*       *\n" )
+         file.write( "*   *   *\n" )
+         file.write( "* *   * *\n" )
+         file.write( "*       *\n" ),
+         file.write("\n")
+
+    if letter == 'X' or letter == 'x':
+        file.write( "*   *\n" )
+        file.write( " * * \n" )
+        file.write( "  * \n" )
+        file.write( " * * \n" )
+        file.write( "*   *\n" ),
+        file.write("\n")
+
+    if letter == 'Y' or letter == 'y':
+        file.write( "*   *\n" )
+        file.write( " * * \n" )
+        file.write( "  *  \n" )
+        file.write( "  *  \n" ),
+        file.write("\n")
+
+    if letter == 'Z' or letter == 'z':
+        file.write( " ***** \n" )
+        file.write( "    *  \n" )
+        file.write( "   *   \n" )
+        file.write( "  *    \n" )
+        file.write( " ***** \n" )
+        file.write("\n")
 
 def main():
-
     name = raw_input("Enter your name: ")
     namelist = list(name)
     for x in range(0, len(namelist)):
         print "\n"
         print_letter(namelist[x]),
+        write_letter(namelist[x]),
 
 main()
