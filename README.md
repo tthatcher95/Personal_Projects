@@ -1,5 +1,3 @@
-# Personal_Projects
+# personal-project-ideas
 
-Projects to get used to new syntax or learn a new language.
-Also, will upload anything cool.
-
+Repository to test new ideas that come to mind
